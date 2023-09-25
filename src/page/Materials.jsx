@@ -63,9 +63,9 @@ function Materials() {
           >
             {/* <RxDotFilled color="grey" /> */}
 
-            <h1 className="bg-slate-300 rounded-full ">Document</h1>
-            <h1 className="bg-slate-300 rounded-full ">Exam</h1>
-            <h1 className="bg-slate-300 rounded-full ">Passed</h1>
+            <h1 className="bg-slate-300 rounded-full w-full h-12 my-2 ">Document</h1>
+            <h1 className="bg-slate-300 rounded-full w-full h-12 my-2 ">Exam</h1>
+            <h1 className="bg-slate-300 rounded-full w-full h-12 my-2 ">Passed</h1>
             
           </div>
         ))}
