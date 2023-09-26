@@ -1,16 +1,16 @@
 import BottomNavbar from "../comp/BottomNavbar"
 import Navbar from "../comp/Navbar"
 
-function Home() {
+function Dashboard() {
   return (
     <>
         <Navbar />
     <div className="max-w-[450px] h-[1000x] m-auto pt-16 px-10 mb-10 relative group font-Poppins">
         <div className="flex flex-row py-4 px-4 gap-4">
             <h1 className="font-semibold text-midblue text-2xl mt-2">My Classes</h1>
-            <img src="/images/search.svg" alt="" />
-            <img src="/images/bell.svg" alt="" />
-            <img src="/images/prof.svg" alt="" />
+            <img src="/images/svg/search.svg" alt="" />
+            <img src="/images/svg/bell.svg" alt="" />
+            <img src="/images/svg/prof.svg" alt="" />
         </div>
         <div>
             <h1 className="font-semibold text-midblue text-5xl pl-4">Hello! Ayano Nana</h1>
@@ -18,11 +18,11 @@ function Home() {
                 <div className="grid-col-2">
                 <h1 className="font-semibold text-white text-xl py-3 px-2 leading-8 ">Chemistry final exams</h1>
                 <div className="flex flex-row gap-2">
-                <img src="/images/bell2.svg" alt="" />
+                <img src="/images/svg/bell2.svg" alt="" />
                 <h1 className="text-white opacity-50 text-sm">45 minutes</h1></div>
                 </div>
                 {/* <div className="grid-col-2 ">
-                    <img src="/images/teles.png" className="ml-32 pb-100 flex-shrink-0" />
+                    <img src="/images/svg/teles.png" className="ml-32 pb-100 flex-shrink-0" />
                 </div> */}
             </div>
         </div>
@@ -38,25 +38,25 @@ function Home() {
         <div className="flex flex-row gap-4 mx-auto  pt-8">
             <div className="w-1/4">
                 <div className="w-[54px] h-[54px] bg-violet-200 rounded-2xl shadow">
-                <img src="/images/physics-1.svg" className="mx-auto py-2" />
+                <img src="/images/svg/physics-1.svg" className="mx-auto py-2" />
                 </div>
                 <h1 className="text-midblue text-center opacity-70 font-semibold text-lg mx-auto">Physics</h1>
             </div>
             <div className="w-1/4">
                 <div className="w-[54px] h-[54px] bg-orange-100 rounded-2xl shadow" >
-                <img src="/images/science.svg" className="mx-auto py-2" /> 
+                <img src="/images/svg/science.svg" className="mx-auto py-2" /> 
                 </div>
                 <h1 className="text-midblue text-center opacity-70 font-semibold text-lg mx-auto">Science</h1>
             </div>
             <div className="w-1/4">
                 <div className="w-[54px] h-[54px] bg-pink-100 rounded-2xl shadow" >
-                <img src="/images/chem.svg" className="mx-auto py-2" /> 
+                <img src="/images/svg/chem.svg" className="mx-auto py-2" /> 
                 </div>
                 <h1 className="text-midblue text-center opacity-70 font-semibold text-lg mx-auto">Chemistry</h1>
             </div>
             <div className="w-1/4">
                 <div className="w-[54px] h-[54px] bg-blue-100 rounded-2xl shadow" >
-                <img src="/images/bio.svg" className="mx-auto py-2" /> 
+                <img src="/images/svg/bio.svg" className="mx-auto py-2" /> 
                 </div>
                 <h1 className="text-midblue text-center opacity-70 font-semibold text-lg mx-auto">Biology</h1>
             </div>
@@ -69,10 +69,10 @@ function Home() {
         </div>
 
         <div className="flex flex-row gap-4 mb-100"> 
-            <img src="/images/girl.svg" className="w-50" />
+            <img src="/images/svg/girl.svg" className="w-50" />
             <div className="px-4">
                 <div className="flex flex-row gap-2">
-                <img src="/images/star.svg" />
+                <img src="/images/svg/star.svg" />
                 <h2 className="flex-row gap-2"> 4.6 </h2>
                 </div>
                 <h1 className="font-medium text-lg  text-midblue">Science Technology</h1>
@@ -87,4 +87,4 @@ function Home() {
   )
 }
 
-export default Home
+export default Dashboard

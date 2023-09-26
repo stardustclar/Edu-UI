@@ -7,8 +7,8 @@ function Video() {
     <Navbar />
     <div className="max-w-[450px] h-[1000x] m-auto pt-16 px-10 mb-10 relative group font-Poppins">
         <div className=" flex flex-row py-2 px-4 gap-40">
-            <img src="/images/back.svg" alt="" />
-            <img src="/images/search.svg" className="mx-20"/>
+            <img src="/images/svg/back.svg" alt="" />
+            <img src="/images/svg/search.svg" className="mx-20"/>
         </div>
 
         <div className="flex flex-col pt-12 pb-2 px-2 gap-2">
@@ -18,10 +18,10 @@ function Video() {
 
         <div>
         <div className="flex flex-row gap-4 mb-100"> 
-            <img src="/images/girl.svg" className="w-50" />
+            <img src="/images/svg/girl.svg" className="w-50" />
             <div className="px-4">
                 <div className="flex flex-row gap-2">
-                <img src="/images/star.svg" />
+                <img src="/images/svg/star.svg" />
                 <h2 className="flex-row gap-2"> 4.6 </h2>
                 </div>
                 <h1 className="font-medium text-lg  text-midblue">Science Technology</h1>
@@ -30,10 +30,10 @@ function Video() {
             </div>
         </div>
         <div className="flex flex-row gap-4 mb-100"> 
-            <img src="/images/girl2.svg" className="w-50" />
+            <img src="/images/svg/girl2.svg" className="w-50" />
             <div className="px-4">
                 <div className="flex flex-row gap-2">
-                <img src="/images/star.svg" />
+                <img src="/images/svg/star.svg" />
                 <h2 className="flex-row gap-2"> 4.6 </h2>
                 </div>
                 <h1 className="font-medium text-lg  text-midblue">Science Technology</h1>
@@ -42,10 +42,10 @@ function Video() {
             </div>
         </div>
         <div className="flex flex-row gap-4 mb-100"> 
-            <img src="/images/girl3.svg" className="w-50" />
+            <img src="/images/svg/girl3.svg" className="w-50" />
             <div className="px-4">
                 <div className="flex flex-row gap-2">
-                <img src="/images/star.svg" />
+                <img src="/images/svg/star.svg" />
                 <h2 className="flex-row gap-2"> 4.6 </h2>
                 </div>
                 <h1 className="font-medium text-lg  text-midblue">Science Technology</h1>
@@ -54,10 +54,10 @@ function Video() {
             </div>
         </div>
         <div className="flex flex-row gap-4 mb-100"> 
-            <img src="/images/boy.svg" className="w-50" />
+            <img src="/images/svg/boy.svg" className="w-50" />
             <div className="px-4">
                 <div className="flex flex-row gap-2">
-                <img src="/images/star.svg" />
+                <img src="/images/svg/star.svg" />
                 <h2 className="flex-row gap-2"> 4.6 </h2>
                 </div>
                 <h1 className="font-medium text-lg  text-midblue">Science Technology</h1>

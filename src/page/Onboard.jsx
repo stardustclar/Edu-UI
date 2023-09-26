@@ -47,7 +47,9 @@ function Onboard() {
         <p className="text-zinc-800 text-md font-normal font-Poppins text-center">{data[currentIndex].text}</p>
       </div>
 
-      <button className="bg-blue-500 text-white rounded-full px-7 py-2 my-4 mx-20">Get Started</button>
+      <button className="bg-blue-500 text-white rounded-full px-7 py-2 my-4 mx-20">
+        <a href="/dashboard">Get Started</a>
+      </button>
 
       {/* Left Arrow */}
       <div className=" group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/40 text-white cursor-pointer">

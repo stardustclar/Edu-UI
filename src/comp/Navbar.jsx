@@ -16,12 +16,6 @@ function Navbar() {
           href="/"
           className="text-gray-700  px-3 py-2 rounded-md text-sm font-medium"
         >
-          home
-        </a>
-        <a
-          href="onboard"
-          className="text-gray-700  px-3 py-2 rounded-md text-sm font-medium"
-        >
           onboard
         </a>
         <a
@@ -47,6 +41,12 @@ function Navbar() {
           className="text-gray-700  px-3 py-2 rounded-md text-sm font-medium"
         >
           sign in
+        </a>
+        <a
+          href="mater"
+          className="text-gray-700 block px-3 py-2 rounded-md text-base font-medium"
+        >
+          materials 
         </a>
       </div>
     </div>
@@ -97,12 +97,6 @@ function Navbar() {
         href="/"
         className="text-gray-700  block px-3 py-2 rounded-md text-base font-medium"
       >
-        home
-      </a>
-      <a
-        href="onboard"
-        className="text-gray-700  block px-3 py-2 rounded-md text-base font-medium"
-      >
         onboard
       </a>
       <a
@@ -128,6 +122,12 @@ function Navbar() {
           className="text-gray-700 block px-3 py-2 rounded-md text-base font-medium"
         >
           signin 
+        </a>
+        <a
+          href="mater"
+          className="text-gray-700 block px-3 py-2 rounded-md text-base font-medium"
+        >
+          materials 
         </a>
     </div>
   </div>
