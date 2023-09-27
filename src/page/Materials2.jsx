@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import Subjects from "../comp/Subjects";
 import BottomNavbar from "../comp/BottomNavbar";
-import Navbar from "../comp/Navbar";
 
 function Materials2() {
   const [activeTab, setActiveTab] = useState("document");
@@ -43,8 +42,7 @@ function Materials2() {
 
 
   return (
-<div className="max-w-[550px] h-[1000x] mx-auto pt-16 px-10 mb-10 relative group font-Poppins">
-  <Navbar />
+<div className="max-w-[550px] h-[1000x] mx-auto pt-10 px-10 mb-10 relative group font-Poppins">
  <div className="max-w-md mx-auto text-center">
         <div className="flex flex-row gap-10 py-4 mt-8 mx-10">
           <h1 className="text-midblue text-3xl font-semibold">Materials</h1>
@@ -58,7 +56,7 @@ function Materials2() {
           onClick={() => handleTabClick("document")}
           style={{backgroundColor: 'slategray',borderRadius: '50%', padding: '0.5rem', margin: '0 auto', width: '8rem'  }}
           >
-          Documents
+          <a href="/doc">Documents</a>
         </li>
 
         <li
@@ -66,7 +64,7 @@ function Materials2() {
           onClick={() => handleTabClick("exam")}
           style={{backgroundColor: 'slategray',borderRadius: '50%', padding: '0.5rem', margin: '0 auto', width: '8rem'  }}
         >
-          Exams
+          <a href="/exam">Exams</a>
         </li>
 
         <li

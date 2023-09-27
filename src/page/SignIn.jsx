@@ -1,10 +1,8 @@
-import Navbar from "../comp/Navbar";
 
 function SignIn() {
   return (
     <>
-    <Navbar />
-    <div className="max-w-[450px] h-[1000x] m-auto pt-16 px-10 mb-10 relative group font-Poppins">
+    <div className="max-w-[450px] h-[1000x] m-auto pt-10 px-10 mb-10 relative group font-Poppins">
       <img src="/images/back.svg" alt="" />
       <form action="">
         <h2 className="text-5xl font-bold py-6 text-midblue">Easy to learn, discover more skills</h2>

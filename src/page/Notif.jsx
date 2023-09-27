@@ -1,6 +1,7 @@
 import { useState } from "react";
-import Navbar from "../comp/Navbar";
+// import Navbar from "../comp/Navbar";
 import { FaEllipsisV } from "react-icons/fa";
+import { useNavigate } from "react-router-dom";
 
 function Notif() {
   const [isOpen, setIsOpen] = useState(false);
@@ -8,13 +9,21 @@ function Notif() {
     setIsOpen(!isOpen);
   };
 
+  const navigate = useNavigate();
+
+  const handleGoBack = () => {
+    navigate(-1);
+  };
+
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <div className="max-w-[450px] h-[1000x] m-auto pt-16 px-10 mb-10 relative group font-Poppins">
         <div className="flex flex-row py-2 px-4 gap-2">
-          <img src="/images/back.svg" alt="" />
-          <h1 className="py-1 font-semibold">Notifications</h1>
+        <button onClick={handleGoBack}>
+          <img src="/images/svg/back.svg" />
+        </button>
+          <h1 className="py-2 font-semibold text-xl mr-12">Notifications</h1>
           <div className="md:hidden py-2 ml-20">
           <button
             onClick={toggleMenu}
@@ -63,26 +72,26 @@ function Notif() {
 
         <div className="flex flex-col py-6">
           <div className="flex flex-row gap-4 py-3">
-            <img src="/images/shion.png" alt="" />
+            <img src="/images/png/shion.png" alt="" />
             <div className="flex flex-col">
               <h1>Erika send a new message</h1>
               <h2 className="text-slate-500">2 min ago</h2>
             </div>
-            <img src="/images/reddot.svg" alt="" />
+            <img src="/images/svg/reddot.svg" alt="" className="py-2 mx-auto" />
           </div>
 
           <div className="flex flex-row gap-4 py-3">
-            <img src="/images/shion.png" alt="" />
+            <img src="/images/png/shion.png" alt="" />
             <div className="flex flex-col">
               <h1>Shion send a new message</h1>
               <h2 className="text-slate-500">3 min ago</h2>
             </div>
-            <img src="/images/reddot.svg" alt="" />
+            <img src="/images/svg/reddot.svg" alt="" className="py-2 mx-auto" />
           </div>
 
           <div className="flex flex-row gap-4 py-3">
             <span className="w-12 h-12 relative bg-green-500 rounded-[48px]">
-              <img src="/images/check.svg" className="py-3 mx-auto" />
+              <img src="/images/svg/check.svg" className="py-3 mx-auto" />
             </span>
             <div className="flex flex-col">
               <h1>You have purchased the course</h1>
@@ -92,7 +101,7 @@ function Notif() {
 
           <div className="flex flex-row gap-4 py-3">
             <span className="w-12 h-12 relative pb-2 rounded-[48px]">
-              <img src="/images/alert.svg" className="py-3 mx-auto" />
+              <img src="/images/svg/alert.svg" className="py-3 mx-auto" />
             </span>
             <div className="flex flex-col">
               <h1>Your account has expired</h1>
@@ -101,26 +110,26 @@ function Notif() {
           </div>
 
           <div className="flex flex-row gap-4 py-3">
-            <img src="/images/masson.png" alt="" />
+            <img src="/images/png/masson.png" alt="" />
             <div className="flex flex-col">
               <h1>Mason send a new message</h1>
               <h2 className="text-slate-500">40 min ago</h2>
             </div>
-            <img src="/images/reddot.svg" alt="" />
+            <img src="/images/svg/reddot.svg" alt="" className="py-2 mx-auto" />
           </div>
 
           <div className="flex flex-row gap-4 py-3">
-            <img src="/images/s.png" alt="" />
+            <img src="/images/png/s.png" alt="" />
             <div className="flex flex-col">
               <h1>Shion send a new message</h1>
               <h2 className="text-slate-500">1 days ago</h2>
             </div>
-            <img src="/images/reddot.svg" alt="" />
+            <img src="/images/svg/reddot.svg" alt="" className="py-2 mx-auto" />
           </div>
 
           <div className="flex flex-row gap-4 py-3">
             <span className="w-12 h-12 relative bg-green-500 rounded-[48px]">
-              <img src="/images/check.svg" className="py-3 mx-auto" />
+              <img src="/images/svg/check.svg" className="py-3 mx-auto" />
             </span>
             <div className="flex flex-col">
               <h1>You have purchased the course</h1>
@@ -129,12 +138,12 @@ function Notif() {
           </div>
 
           <div className="flex flex-row gap-4 py-3">
-            <img src="/images/njug.png" alt="" />
+            <img src="/images/png/njug.png" alt="" />
             <div className="flex flex-col">
               <h1>Njug send a new message</h1>
               <h2 className="text-slate-500">3 days ago</h2>
             </div>
-            <img src="/images/reddot.svg" alt="" />
+            <img src="/images/svg/reddot.svg" alt="" className="py-2 mx-auto" />
           </div>
         </div>
       </div>

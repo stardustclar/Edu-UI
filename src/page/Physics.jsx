@@ -1,13 +1,23 @@
+import { useNavigate } from "react-router-dom";
+
 function Physics() {
+    const navigate = useNavigate();
+
+    const handleGoBack = () => {
+      navigate(-1);
+    };
+
   return (
     <>
-    <div className="max-w-[500px] h-[1000x] m-auto pt-16 px-10 mb-10 relative group font-Poppins">
+    <div className="max-w-[500px] h-[1000x] m-auto pt-10 px-10 mb-10 relative group font-Poppins">
         <div className='flex flex-row py-2 px-4 gap-24'>
-            <img src="/images/back.svg" alt="" />
+          <button onClick={handleGoBack}>
+            <img src="/images/svg/back.svg" className="mr-32" />
+          </button>
         </div>
         <div>
             <h1 className='font-semibold text-4xl text-midblue text-center mb-8'>Physics</h1>
-            <img src="images/saturn.png" className='mx-auto' />
+            <img src="images/png/saturn.png" className='mx-auto' />
             <h1 className='font-semibold text-2xl text-midblue text-center py-4'>Advanced Physics</h1>
             <p className="text-subblue">This course serves as an introduction to the physics of force and motion...  
             <span className='text-blue-500 mx-2'>Read more</span></p>
@@ -17,7 +27,7 @@ function Physics() {
             <h1 className='py-4 font-semibold text-2xl text-midblue'>Subject Details</h1>
             <div className='flex flex-row gap-4 py-4'>
                 <div className="w-12 h-12 rounded-2xl border-2 border-indigo-500 " >
-                <img src="images/lectures.svg" className='mx-auto py-2' />
+                <img src="images/svg/lectures.svg" className='mx-auto py-2' />
                 </div>
                 <div className='flex flex-col'>
                 <h2 className='text-midblue text-xl'>18 online lectures</h2>
@@ -27,7 +37,7 @@ function Physics() {
             
             <div className='flex flex-row gap-4 py-4'>
                 <div className="w-12 h-12 rounded-2xl border-2 border-blue-500 " >
-                <img src="images/doc.svg" className='mx-auto py-2' />
+                <img src="images/svg/doc.svg" className='mx-auto py-2' />
                 </div>
                 <div className='flex flex-col'>
                 <h2 className='text-midblue text-xl'>15 Chapter + 5 Test Exam</h2>
@@ -37,7 +47,7 @@ function Physics() {
 
             <div className='flex flex-row gap-4 py-4'>
                 <div className="w-12 h-12 rounded-2xl border-2 border-orange2 " >
-                <img src="images/down.svg" className='mx-auto py-2' />
+                <img src="images/svg/down.svg" className='mx-auto py-2' />
                 </div>
                 <div className='flex flex-col'>
                 <h2 className='text-midblue text-xl'>20 download resource</h2>
