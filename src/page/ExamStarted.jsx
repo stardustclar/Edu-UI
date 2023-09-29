@@ -14,6 +14,19 @@ function ExamStarted() {
     setIsOpen(!isOpen);
   };
 
+  // MULTIPLE CHOICES
+  const [selectedOption, setSelectedOption] = useState("");
+
+  const handleOptionChange = (event) => {
+    setSelectedOption(event.target.value);
+  };
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    // Do something with the selected option
+    console.log("Selected Option:", selectedOption);
+  };
+
   return (
     <div className="max-w-[450px] h-[1000x] m-auto pt-16 px-10 mb-10 relative group font-Poppins">
       <div className="flex flex-row gap-2">
@@ -31,10 +44,52 @@ function ExamStarted() {
         <h1 className="text-midblue text-xl font-semibold py-3">
           In the following cases, when does the object make a sound?
         </h1>
-        <p className="py-3">A. When stretching the object</p>
-        <p className="py-3">B. When bending objects</p>
-        <p className="py-3">C. When compressing objects</p>
-        <p className="py-3">D. When making an object vibrate</p>
+        <form onSubmit={handleSubmit}>
+          <div className="py-4 mx-2">
+            <label>
+              <input
+                type="radio"
+                value="option1"
+                checked={selectedOption === "option1"}
+                onChange={handleOptionChange}
+              />
+               A. When stretching the object
+            </label>
+          </div>
+          <div className="py-4 mx-2">
+            <label>
+              <input
+                type="radio"
+                value="option2"
+                checked={selectedOption === "option2"}
+                onChange={handleOptionChange}
+              />
+               B. When bending objects
+            </label>
+          </div>
+          <div className="py-4 mx-2">
+            <label>
+              <input
+                type="radio"
+                value="option3"
+                checked={selectedOption === "option3"}
+                onChange={handleOptionChange}
+              />
+               C. When compressing objects
+            </label>
+          </div>
+          <div className="py-4 mx-2">
+            <label>
+              <input
+                type="radio"
+                value="option4"
+                checked={selectedOption === "option4"}
+                onChange={handleOptionChange}
+              />
+               D. When making an object vibrate
+            </label>
+          </div>
+        </form>
       </div>
 
       <h1 className="text-base opacity-60 text-center mt-20">
@@ -57,20 +112,21 @@ function ExamStarted() {
                 You have 44:10 minutes left. Do you want to submit the test? If
                 you press submit, you will not be able to edit the test
               </p>
-              <div className="flex justify-center gap-2">
-              <button
-                className="bg-white hover:bg-slate-700 opacity-60 font-bold py-2 px-4 rounded-full mt-4"
-                onClick={togglePopup}
-              >
-                Cancel
-              </button>
 
-              <button
-                className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full mt-4"
-                onClick={togglePopup}
-              >
-                Submit
-              </button>
+              <div className="flex justify-center gap-2">
+                <button
+                  className="bg-white hover:bg-slate-700 opacity-60 font-bold py-2 px-4 rounded-full mt-4"
+                  onClick={togglePopup}
+                >
+                  Cancel
+                </button>
+
+                <button
+                  className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full mt-4"
+                  onClick={togglePopup}
+                >
+                  Submit
+                </button>
               </div>
             </div>
           </div>

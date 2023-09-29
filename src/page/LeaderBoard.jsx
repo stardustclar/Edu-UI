@@ -59,7 +59,9 @@ function LeaderBoard() {
             </div>
             <div className="flex flex-row gap-4">
               <img src="/images/leader/juli.svg" alt="" />
-              <h1 className="text-midblue font-semibold py-2 mr-16">Julian Fox</h1>
+              <h1 className="text-midblue font-semibold py-2 mr-16">
+                <a href="/julian">Julian Fox</a>
+              </h1>
               <h2 className="text-green-500 font-semibold py-2">86P</h2>
             </div>
         </div>

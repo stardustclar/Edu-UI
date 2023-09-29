@@ -8,7 +8,7 @@ function BottomNavbar() {
       <a href="/mater" className="px-4 py-2">
         <img src="/images/svg/docu.svg" className="w-6 h-6" />
       </a>
-      <a href="#" className="px-4 py-2">
+      <a href="/leader" className="px-4 py-2">
         <img src="/images/svg/chart.svg" className="w-6 h-6" />
       </a>
       <a href="#" className="px-4 py-2">

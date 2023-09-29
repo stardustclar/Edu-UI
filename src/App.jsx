@@ -15,6 +15,7 @@ import Document from './page/Document';
 import Exam from './page/Exam';
 import ExamStarted from './page/ExamStarted';
 import LeaderBoard from './page/LeaderBoard';
+import Julian from './page/Julian';
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
           <Route path='/exam' element={<Exam />} />
           <Route path='/examstarted' element={<ExamStarted />} />
           <Route path='/leader' element={<LeaderBoard />} />
+          <Route path='/julian' element={<Julian />} />
         </Routes>
       </Router>
     </div>
