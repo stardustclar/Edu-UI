@@ -2,7 +2,6 @@ import { useState } from "react";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 import { RxDotFilled } from "react-icons/rx";
 import { data } from "../comp/Pics";
-import Navbar from "../comp/Navbar";
 
 function Onboard() {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -25,7 +24,6 @@ function Onboard() {
 
   return (
     <>
-    <Navbar />
     <div className="max-w-[375px] h-[812x] m-auto pt-16 px-10 relative group">
       {/* <div className='mb-8'>
           <h1 className='text-md uppercase text-center'>adoption pet</h1>

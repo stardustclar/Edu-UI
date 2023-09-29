@@ -14,6 +14,7 @@ import Materials2 from './page/Materials2';
 import Document from './page/Document';
 import Exam from './page/Exam';
 import ExamStarted from './page/ExamStarted';
+import LeaderBoard from './page/LeaderBoard';
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
           <Route path='/doc' element={<Document />} />
           <Route path='/exam' element={<Exam />} />
           <Route path='/examstarted' element={<ExamStarted />} />
+          <Route path='/leader' element={<LeaderBoard />} />
         </Routes>
       </Router>
     </div>
