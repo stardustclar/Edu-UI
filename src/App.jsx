@@ -10,7 +10,7 @@ import Physics from './page/Physics';
 import Physics2 from './page/Physics2';
 // import Materials from './page/Materials';
 import Dashboard from './page/Dashboard';
-import Materials2 from './page/Materials2';
+import Materials from './page/Materials';
 import Document from './page/Document';
 import Exam from './page/Exam';
 import ExamStarted from './page/ExamStarted';
@@ -31,7 +31,7 @@ function App() {
           <Route path='/notif' element={<Notif />} />
           <Route path='/phy' element={<Physics />} />
           <Route path='/phy2' element={<Physics2 />} />
-          <Route path='/mater' element={<Materials2 />} />
+          <Route path='/mater' element={<Materials />} />
           <Route path='/doc' element={<Document />} />
           <Route path='/exam' element={<Exam />} />
           <Route path='/examstarted' element={<ExamStarted />} />

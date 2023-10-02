@@ -10,18 +10,18 @@ function Subjects() {
             className="mx-auto py-3 mt-4"
           />
         </div>
-        <h1 className="text-midblue opacity-70 font-semibold text-lg mx-auto">
+        <h1 className="text-midblue opacity-70 font-semibold text-lg mx-auto dark:text-white">
           Physics
         </h1>
       </div>
       <div className="w-1/4">
-        <div className="w-[54px] h-[54px] bg-orange-100 rounded-2xl shadow">
+        <div className="w-[54px] h-[54px] bg-red-100 rounded-2xl shadow">
           <img
             src="/images/svg/science.svg"
-            className="mx-auto py-4 mt-4"
+            className="mx-auto py-3 mt-4"
           />
         </div>
-        <h1 className="text-midblue opacity-70 font-semibold text-lg mx-auto">
+        <h1 className="text-midblue opacity-70 font-semibold text-lg mx-auto dark:text-white">
           Science
         </h1>
       </div>
@@ -32,7 +32,7 @@ function Subjects() {
             className="mx-auto py-2 mt-4"
           />
         </div>
-        <h1 className="text-midblue opacity-70 font-semibold text-lg mx-auto">
+        <h1 className="text-midblue opacity-70 font-semibold text-lg mx-auto dark:text-white">
           Chemistry
         </h1>
       </div>
@@ -43,7 +43,7 @@ function Subjects() {
             className="mx-auto py-3 mt-4"
           />
         </div>
-        <h1 className="text-midblue opacity-70 font-semibold text-lg mx-auto">
+        <h1 className="text-midblue opacity-70 font-semibold text-lg mx-auto dark:text-white">
           Biology
         </h1>
       </div>
@@ -57,7 +57,7 @@ function Subjects() {
             className="mx-auto py-3 mt-4"
           />
         </div>
-        <h1 className="text-midblue  opacity-70 font-semibold text-lg mx-auto">
+        <h1 className="text-midblue  opacity-70 font-semibold text-lg mx-auto dark:text-white">
           Math
         </h1>
       </div>
@@ -68,7 +68,7 @@ function Subjects() {
             className="mx-auto py-3 mt-4"
           />
         </div>
-        <h1 className="text-midblue  opacity-70 font-semibold text-lg mx-auto">
+        <h1 className="text-midblue  opacity-70 font-semibold text-lg mx-auto dark:text-white">
           Linguistik
         </h1>
       </div>
@@ -79,7 +79,7 @@ function Subjects() {
             className="mx-auto py-3 mt-4"
           />
         </div>
-        <h1 className="text-midblue opacity-70 font-semibold text-lg mx-auto">
+        <h1 className="text-midblue opacity-70 font-semibold text-lg mx-auto dark:text-white">
           Literature
         </h1>
       </div>

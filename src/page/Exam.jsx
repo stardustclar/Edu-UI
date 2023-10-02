@@ -8,7 +8,7 @@ function Exam() {
   };
 
   return (
-    <div className="max-w-[450px] h-[1000x] m-auto pt-16 px-10 mb-10 relative group font-Poppins">
+    <div className="max-w-[450px] h-[1000px] m-auto pt-16 px-10 mb-10 relative group font-Poppins dark:bg-dark">
       <div className="flex flex-row gap-4">
         <button onClick={handleGoBack}>
           <img src="/images/svg/back.svg" alt="" />

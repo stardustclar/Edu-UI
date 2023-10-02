@@ -9,7 +9,7 @@ function Live() {
 
   return (
     <>
-      <div className="max-w-[450px] h-[100x] m-auto pt-10 px-10 mb-10 relative group font-Poppins">
+      <div className="max-w-[450px] h-[1000px] m-auto pt-10 px-10 mb-10 relative group font-Poppins">
         <div className=" flex flex-row py-2 px-4 gap-20">
           <button onClick={handleGoBack}>
             <img src="/images/svg/back.svg" className="mr-32" />
@@ -36,7 +36,7 @@ function Live() {
           </div>
         </div>
 
-        <div className="relative w-[350px] h-[540px] rounded-[32px] bg-blue-300 opacity-100 mx-auto mt-24">
+        <div className="relative w-[350px] h-[540px] rounded-[32px] bg-blue-300 dark:bg-midblues opacity-100 mx-auto mt-24">
           {/* MIAASNA */}
           <div className="flex flex-col gap-2 mx-4 pt-4">
             <div className="flex flex-row gap-2">

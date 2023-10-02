@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import Subjects from "../comp/Subjects";
 import BottomNavbar from "../comp/BottomNavbar";
 
-function Materials2() {
+function Materials() {
   const [activeTab, setActiveTab] = useState("document");
 
   const handleTabClick = (tab) => {
@@ -42,10 +42,10 @@ function Materials2() {
 
 
   return (
-<div className="max-w-[550px] h-[1000x] mx-auto pt-10 px-10 mb-10 relative group font-Poppins">
+<div className="max-w-[550px] h-[1000px] mx-auto pt-10 px-10 mb-10 relative group font-Poppins dark:bg-dark">
  <div className="max-w-md mx-auto text-center">
         <div className="flex flex-row gap-10 py-4 mt-8 mx-10">
-          <h1 className="text-midblue text-3xl font-semibold">Materials</h1>
+          <h1 className="text-midblue text-3xl font-semibold dark:text-white">Materials</h1>
           <img src="/images/svg/prof.svg" className="pb-2 ml-32" />
         </div>
 
@@ -121,8 +121,8 @@ function Materials2() {
         <div className="flex flex-row gap-3 py-3">
             <img src="/images/svg/phy.svg" alt="" />
             <div className="flex flex-col">
-              <h1 className="text-xl text-midblue font-semibold ">Physics</h1>
-              <h2 className="text-subblue text-base">You have completed 
+              <h1 className="text-2xl text-midblue font-semibold dark:text-white">Physics</h1>
+              <h2 className="text-subblue text-base dark:text-slate-300">You have completed 
               <span className="text-green-500"> 28/35</span> questions</h2>
             </div>
             <img src="/images/svg/85per.svg" alt="" />
@@ -131,8 +131,8 @@ function Materials2() {
         <div className="flex flex-row gap-3 py-3">
             <img src="/images/svg/sci.svg" alt="" />
             <div className="flex flex-col">
-              <h1 className="text-xl text-midblue font-semibold ">Science</h1>
-              <h2 className="text-subblue text-base">You have completed 
+              <h1 className="text-2xl text-midblue font-semibold dark:text-white">Science</h1>
+              <h2 className="text-subblue text-base dark:text-slate-300">You have completed 
               <span className="text-green-500"> 22/35</span> questions</h2>
             </div>
             <img src="/images/svg/75per.svg" alt="" />
@@ -141,8 +141,8 @@ function Materials2() {
         <div className="flex flex-row gap-3 py-3">
             <img src="/images/svg/chem.svg" alt="" />
             <div className="flex flex-col">
-              <h1 className="text-xl text-midblue font-semibold ">Chemistry</h1>
-              <h2 className="text-subblue text-base">You have completed 
+              <h1 className="text-2xl text-midblue font-semibold dark:text-white">Chemistry</h1>
+              <h2 className="text-subblue text-base dark:text-slate-300">You have completed 
               <span className="text-orange"> 12/35</span> questions</h2>
             </div>
             <img src="/images/svg/30per.svg" alt="" />
@@ -157,4 +157,4 @@ function Materials2() {
   );
 }
 
-export default Materials2;
+export default Materials;

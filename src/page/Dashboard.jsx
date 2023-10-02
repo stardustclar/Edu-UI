@@ -5,9 +5,9 @@ function Dashboard() {
   return (
     <>
       {/* <Navbar /> */}
-      <div className="max-w-[450px] h-[1000x] m-auto pt-10 px-10 mb-10 relative group font-Poppins">
+      <div className="max-w-[450px] h-[1000px] m-auto pt-10 px-10 mb-10 relative group font-Poppins dark:bg-dark">
         <div className="flex flex-row py-4 px-4 gap-4">
-          <h1 className="font-semibold text-midblue text-2xl mt-2 mr-6">
+          <h1 className="font-semibold text-midblue dark:text-white text-2xl mt-2 mr-6">
             My Classes
           </h1>
           <img src="/images/svg/search.svg" alt="" />
@@ -16,7 +16,7 @@ function Dashboard() {
           <img src="/images/svg/prof.svg" alt="" />
         </div>
         <div>
-          <h1 className="font-semibold text-midblue text-5xl pl-4">
+          <h1 className="font-semibold text-midblue dark:text-white text-5xl pl-4">
             Hello! Ayano Nana
           </h1>
           <div className="w-[327px] h-[137px] my-6 px-2 bg-gradient-to-b from-indigo-400 to-purple-500 rounded-3xl flex-row gap-2">
@@ -37,13 +37,13 @@ function Dashboard() {
 
         {/* SUBJECT */}
         <div className="flex flex-row pt-4 pb-2 px-2 gap-40">
-          <h1 className="font-semibold text-midblue text-lg mr-10">Subject</h1>
+          <h1 className="font-semibold text-midblue text-lg mr-10 dark:text-white">Subject</h1>
           <h2 className="font-medium text-lightblue text-base">
             <a href="/subject">See All</a>
           </h2>
         </div>
 
-        <h1 className=" font-semibold text-midblue opacity-50 text-lg px-2">
+        <h1 className=" font-semibold text-midblue dark:text-slate-300 opacity-50 text-lg px-2">
           High School - Grade 12
         </h1>
 
@@ -52,15 +52,15 @@ function Dashboard() {
             <div className="w-[54px] h-[54px] bg-violet-200 rounded-2xl shadow">
               <img src="/images/svg/physics-1.svg" className="mx-auto py-2" />
             </div>
-            <h1 className="text-midblue text-center opacity-70 font-semibold text-lg mx-auto">
+            <h1 className="text-midblue text-center opacity-70 font-semibold text-lg mx-auto dark:text-white">
               Physics
             </h1>
           </div>
           <div className="w-1/4">
-            <div className="w-[54px] h-[54px] bg-orange-100 rounded-2xl shadow">
+            <div className="w-[54px] h-[54px] bg-red-100 rounded-2xl shadow">
               <img src="/images/svg/science.svg" className="mx-auto py-2" />
             </div>
-            <h1 className="text-midblue text-center opacity-70 font-semibold text-lg mx-auto">
+            <h1 className="text-midblue text-center opacity-70 font-semibold text-lg mx-auto dark:text-white">
               Science
             </h1>
           </div>
@@ -68,7 +68,7 @@ function Dashboard() {
             <div className="w-[54px] h-[54px] bg-pink-100 rounded-2xl shadow">
               <img src="/images/svg/chem.svg" className="mx-auto py-2" />
             </div>
-            <h1 className="text-midblue text-center opacity-70 font-semibold text-lg mx-auto">
+            <h1 className="text-midblue text-center opacity-70 font-semibold text-lg mx-auto dark:text-white">
               Chemistry
             </h1>
           </div>
@@ -76,7 +76,7 @@ function Dashboard() {
             <div className="w-[54px] h-[54px] bg-blue-100 rounded-2xl shadow">
               <img src="/images/svg/bio.svg" className="mx-auto py-2" />
             </div>
-            <h1 className="text-midblue text-center opacity-70 font-semibold text-lg mx-auto">
+            <h1 className="text-midblue text-center opacity-70 font-semibold text-lg mx-auto dark:text-white">
               Biology
             </h1>
           </div>
@@ -84,7 +84,7 @@ function Dashboard() {
 
         {/* VIDEO COURSE */}
         <div className="flex flex-row pt-12 pb-2 px-2 gap-40">
-          <h1 className="font-semibold text-midblue text-lg">Video Course</h1>
+          <h1 className="font-semibold text-midblue text-lg dark:text-white">Video Course</h1>
           <h2 className="font-medium text-lightblue text-base ">
           <a href="/video">See All</a>
           </h2>
@@ -95,9 +95,9 @@ function Dashboard() {
           <div className="px-4">
             <div className="flex flex-row gap-2">
               <img src="/images/svg/star.svg" />
-              <h2 className="flex-row gap-2"> 4.6 </h2>
+              <h2 className="flex-row gap-2 dark:text-white"> 4.6 </h2>
             </div>
-            <h1 className="font-medium text-lg  text-midblue">
+            <h1 className="font-medium text-lg  text-midblue dark:text-slate-300">
               Science Technology
             </h1>
             <p className="text-sm text-slate-500">By Nazomi Sasaki</p>
@@ -105,9 +105,9 @@ function Dashboard() {
             <a href="/live">Live Now</a>
             </button>
           </div>
+        <BottomNavbar />
         </div>
 
-        <BottomNavbar />
       </div>
     </>
   );

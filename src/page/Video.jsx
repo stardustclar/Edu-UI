@@ -10,7 +10,7 @@ function Video() {
 
   return (
     <>
-      <div className="max-w-[450px] h-[1000x] m-auto pt-10 px-10 mb-10 relative group font-Poppins">
+      <div className="max-w-[450px] h-[1000px] m-auto pt-10 px-10 mb-10 relative group font-Poppins dark:bg-dark">
         <div className=" flex flex-row py-2 px-4 gap-20">
           <button onClick={handleGoBack}>
             <img src="/images/svg/back.svg" className="mr-32"/>
@@ -19,7 +19,7 @@ function Video() {
         </div>
 
         <div className="flex flex-col pt-11 pb-2 px-2 gap-2">
-          <h1 className="font-semibold text-midblue text-2xl">Video Course</h1>
+          <h1 className="font-semibold text-midblue text-2xl dark:text-white">Video Course</h1>
           <h2 className="font-medium text-slate-500 text-base ">All Course</h2>
         </div>
 
@@ -29,9 +29,9 @@ function Video() {
             <div className="px-4">
               <div className="flex flex-row gap-2">
                 <img src="/images/svg/star.svg" />
-                <h2 className="flex-row gap-2"> 4.6 </h2>
+                <h2 className="flex-row gap-2 dark:text-white"> 4.6 </h2>
               </div>
-              <h1 className="font-medium text-lg  text-midblue">
+              <h1 className="font-medium text-lg  text-midblue dark:text-slate-300">
                 Science Technology
               </h1>
               <p className="text-sm text-slate-500">By Nazomi Sasaki</p>
@@ -45,9 +45,9 @@ function Video() {
             <div className="px-4">
               <div className="flex flex-row gap-2">
                 <img src="/images/svg/star.svg" />
-                <h2 className="flex-row gap-2"> 4.6 </h2>
+                <h2 className="flex-row gap-2 dark:text-white"> 4.6 </h2>
               </div>
-              <h1 className="font-medium text-lg  text-midblue">
+              <h1 className="font-medium text-lg  text-midblue dark:text-slate-300">
                 Science Technology
               </h1>
               <p className="text-sm text-slate-500">By Nazomi Sasaki</p>
@@ -61,9 +61,9 @@ function Video() {
             <div className="px-4">
               <div className="flex flex-row gap-2">
                 <img src="/images/svg/star.svg" />
-                <h2 className="flex-row gap-2"> 4.6 </h2>
+                <h2 className="flex-row gap-2 dark:text-white"> 4.6 </h2>
               </div>
-              <h1 className="font-medium text-lg  text-midblue">
+              <h1 className="font-medium text-lg  text-midblue dark:text-slate-300">
                 Science Technology
               </h1>
               <p className="text-sm text-slate-500">By Nazomi Sasaki</p>
@@ -77,9 +77,9 @@ function Video() {
             <div className="px-4">
               <div className="flex flex-row gap-2">
                 <img src="/images/svg/star.svg" />
-                <h2 className="flex-row gap-2"> 4.6 </h2>
+                <h2 className="flex-row gap-2 dark:text-white"> 4.6 </h2>
               </div>
-              <h1 className="font-medium text-lg  text-midblue">
+              <h1 className="font-medium text-lg  text-midblue dark:text-slate-300">
                 Science Technology
               </h1>
               <p className="text-sm text-slate-500">By Nazomi Sasaki</p>
