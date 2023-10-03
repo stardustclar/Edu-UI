@@ -16,6 +16,9 @@ import Exam from './page/Exam';
 import ExamStarted from './page/ExamStarted';
 import LeaderBoard from './page/LeaderBoard';
 import Julian from './page/Julian';
+import Chat from './page/Chat';
+import Group from './page/Group';
+import Chating from './page/Chating';
 
 function App() {
   return (
@@ -37,6 +40,9 @@ function App() {
           <Route path='/examstarted' element={<ExamStarted />} />
           <Route path='/leader' element={<LeaderBoard />} />
           <Route path='/julian' element={<Julian />} />
+          <Route path='/chat' element={<Chat />} />
+          <Route path='/group' element={<Group />} />
+          <Route path='/chating' element={<Chating />} />
         </Routes>
       </Router>
     </div>
